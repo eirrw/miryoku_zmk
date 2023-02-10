@@ -11,6 +11,5 @@ jobs:
       board: '[
         "corneish_zen_v2_left","corneish_zen_v2_right"
       ]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY_HIDE_MOMENTARY_LAYERS=y\nCONFIG_CUSTOM_WIDGET_LAYER_STATUS_HIDE_HEADING=y\nCONFIG_IL0323_INVERT=y\nCONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY_HIDE_MOMENTARY_LAYERS=y\nCONFIG_CUSTOM_WIDGET_LAYER_STATUS_HIDE_HEADING=y\nCONFIG_ZMK_MOUSE=y"]'
       branches: '["zmkfirmware/zmk/main caksoylar/zmk/caksoylar/zen-v2 ftc/zmk/mouse-ftc"]'

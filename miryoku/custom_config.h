@@ -1,8 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define MIRYOKU_ALPHAS_WORKMAN
-
 // use semicolon on base layer
 #define MIRYOKU_ALTERNATIVES_BASE_WORKMAN \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             U_AS(SEMI),           \
@@ -31,3 +29,7 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
+// choose alpha layout
+#define MIRYOKU_ALPHAS_WORKMAN
+// use mousekeys
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
