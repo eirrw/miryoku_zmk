@@ -1,7 +1,7 @@
 # Copyright 2023 Manna Harbour
-# https://github.com/manna-harbour/miryoku
+# https://github.com/eirrw/miryoku_zmk
 
-name: 'Build Example Corne-ish Zen Custom'
+name: 'Build Corne-ish Zen V2 Custom'
 on: workflow_dispatch
 jobs:
   build:
