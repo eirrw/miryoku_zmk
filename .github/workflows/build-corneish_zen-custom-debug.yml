@@ -1,0 +1,15 @@
+# Copyright 2023 Manna Harbour
+# https://github.com/eirrw/miryoku_zmk
+
+name: 'Build Corne-ish Zen V2 Custom'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '[
+        "corneish_zen_v2_left","corneish_zen_v2_right"
+      ]'
+      kconfig: '["CONFIG_ZMK_DISPLAY_HIDE_MOMENTARY_LAYERS=y\nCONFIG_CUSTOM_WIDGET_LAYER_STATUS_HIDE_HEADING=y\nCONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY_FULL_REFRESH_PERIOD=1200\nCONFIG_ZMK_USB_LOGGING=y"]'
+      branches: '["zmkfirmware/zmk/main caksoylar/zmk/caksoylar/zen-v1+v2+experimental"]'
